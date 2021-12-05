@@ -165,7 +165,7 @@ function navigation (){
                     </div>
                 </div>
                 </div>
-                <button className='Download' type="button">Dowload</button>
+                <button className='Download' type="button">Download</button>
                 <div className='Space2'>
                 </div>
 
