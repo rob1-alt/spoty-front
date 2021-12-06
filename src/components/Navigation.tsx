@@ -74,11 +74,12 @@ function navigation (){
                     <Col span={24}>C’est le moment de faire de nouvelles découvertes musicales !</Col>
                     </Row>
                 </p>
-                <button type="button">Let's go !</button>
+                <button type="button"> <a href="#ButtonAncreGo" className="ButtonAncreGo"> Let's go ! </a>  </button>
                 <img className="Indication" src={Indication} alt="Fleche en SVG"/>
                 </div>
                 </div>
                 {/* PAGE DES CHOIX DES TITRES */}
+                <a id="ButtonAncreGo"></a>
                 <div className="Selection">
                 <h2 className="A3">
                 <Row>
@@ -106,22 +107,22 @@ function navigation (){
                     <Col span={6}>
                     <div className='Choice2'>
                     <img className="Illustration1" src={choice2} alt="Image de l'album 2"  />
-                    <p className='Music1'>Starboy</p>
-                    <p className='Singer1'>The Weeknd</p>
+                    <p className='Music1'>Flowers Boy</p>
+                    <p className='Singer1'>Taylor the creator</p>
                     </div>
                     </Col>
                     <Col span={6}>
                     <div className='Choice3'>
                     <img className="Illustration1" src={choice3} alt="Image de l'album 3"  />
-                    <p className='Music1'>Starboy</p>
-                    <p className='Singer1'>The Weeknd</p>
+                    <p className='Music1'>Good Morning</p>
+                    <p className='Singer1'>Kanye West</p>
                     </div>
                     </Col>
                     <Col span={6}>
                     <div className='Choice4'>
                     <img className="Illustration1" src={choice4} alt="Image de l'album 4"  />
-                    <p className='Music1'>Starboy</p>
-                    <p className='Singer1'>The Weeknd</p>
+                    <p className='Music1'>Logiciel Triste</p>
+                    <p className='Singer1'>Laylow</p>
                     </div>
                     </Col>
                 </Row>

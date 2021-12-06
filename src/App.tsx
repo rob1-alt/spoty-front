@@ -1,5 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
+
+// call API PHP Synfony
+import axios from "axios";
 
 //HEADER//
 import Logo from './img/logo.svg';
@@ -49,6 +52,13 @@ import Menu from './components/Menu';
 
 
 function App() {
+  // useEffect(() => {
+  //   axios.get(`http://127.0.0.1:8080/topartist/65a1ddd3ba89726cc3e5821bbd23dcb7f8e34e47`)
+  //     .then((res) => {
+  //       console.log(res);
+  //     });
+  // }, []);
+
   return (
     
  
@@ -60,7 +70,7 @@ function App() {
           <img src={Logo2} alt="Logo Spoty" />
         </Link>
           <Link to="Navigation"> <p className='SpotyDraft'>SPOTY DRAFT</p> </Link>
-          <p className="NameId">Victor Guislain</p>
+          <p className="NameId">Rob1</p>
           <img className="PhotoId" src={PhotoId} alt="Photo de profil utilisateur" />
         </header>
 
