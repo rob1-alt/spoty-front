@@ -149,7 +149,6 @@ function getArtist(number:number){
     return ""
   
   }else{
-    console.log("")
     const objet = testObj(topArtists[number], "popularity")
     return objet
   }
@@ -211,7 +210,7 @@ function getArtist(number:number){
                     <h1 className="T3">
                       <Row>
                         <Col span={12}>Top...</Col>
-                        <Col className="test" span={12}>78</Col>
+                        <Col className="test" span={12}>{getArtist(0)}</Col>
                       </Row>
                     </h1>  
                     <div className="DataAlbum">
@@ -299,7 +298,7 @@ function getArtist(number:number){
                     <h1 className="T5">
                       <Row>
                         <Col span={12}>Top...</Col>
-                        <Col className="pourcentage" span={12}>70</Col>
+                        <Col className="pourcentage" span={12}>{getArtist(0)}</Col>
                       </Row>
                     </h1>  
                     <div className="DataArtiste">

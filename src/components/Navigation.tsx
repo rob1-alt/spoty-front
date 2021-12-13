@@ -30,7 +30,7 @@ import { Row, Col, Divider } from 'antd';
 import 'antd/dist/antd.css';
 
 
-import Accueil from  '../components/Accueil'
+import Accueil from  '../components/Accueil' 
 import Menu from './Menu';
 
 
